@@ -37,19 +37,19 @@ Flag	Description	Example
 
 Examples
 
-	1.	Using a Single Shodan Key (configured in the YAML file):
+1.	Using a Single Shodan Key (configured in the YAML file):
 
 ```bash
 ./rusho -d example.com
 ```
 
-	2.	Using a File with Multiple Keys for Rotation:
+2.	Using a File with Multiple Keys for Rotation:
 
 ```bash
 ./rusho -d example.com -x keys.txt
 ```
 
-	3.	Specifying a Configuration File and an Output File:
+3.	Specifying a Configuration File and an Output File:
 
 ```bash
 ./rusho -d example.com -c custom_config.yaml -o output.txt
